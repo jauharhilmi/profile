@@ -1,131 +1,208 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web profile</title>
+    <title>Web Profile - Jauhar Hilmi</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
+
     <div class="page">
+
+        <!-- PROFIL -->
         <header class="hero">
             <div class="profile-content">
-                <span class="badge">web profile</span>
-                <h1 id="text1" class="judul judul-besar">Muhammad Jauhar Hilmi</h1>
-                <p id="text2" class="judul">saya seorang siswa MAN 3 Tulungagung Yang sedang belajar Rekayasa perangkat
-                    lunak (RPL)</p>
+                <span class="badge">Web Profile</span>
+
+                <h1 class="judul judul-besar">
+                    Muhammad Jauhar Hilmi
+                </h1>
+
+                <p id="text2">
+                    Saya seorang siswa MAN 3 Tulungagung
+                    yang sedang belajar Rekayasa Perangkat
+                    Lunak (RPL).
+                </p>
             </div>
-            <img class="profile-photo" src="sitod.jfif" alt="sitod" height="150px">
+
+            <img class="profile-photo" src="sitod.jfif" alt="Foto profil">
         </header>
-        <main class="content grid">
+
+        <main class="content">
+
+            <!-- HOBI -->
+            <section class="panel">
+                <h2>Hobi</h2>
+
+                <ul class="hobby-list">
+                    <li>🎮 Bermain Game</li>
+                    <li>📚 Membaca Buku</li>
+                </ul>
+            </section>
+
+            <!-- SOSIAL MEDIA -->
+            <section class="panel">
+                <h2>Sosial Media</h2>
+
+                <p class="section-description">
+                    Temukan saya melalui media sosial:
+                </p>
+
+                <ul class="social-list">
+                    <li>
+                        <a class="social-link instagram" href="https://www.instagram.com/jhr_0403/" target="_blank">
+                            Instagram
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="social-link tiktok" href="https://www.tiktok.com/@hlmjhr04" target="_blank">
+                            TikTok
+                        </a>
+                    </li>
+                </ul>
+
+                <p class="hint">
+                    Follow media sosial saya!
+                </p>
+            </section>
+
+            <!-- KONTAK -->
+            <section class="panel">
+                <h2>Kontak Saya</h2>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="nama">Nama</label>
+                        <input type="text" id="nama" placeholder="Masukkan nama kamu">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pesan">Pesan</label>
+                        <textarea id="pesan" rows="4" placeholder="Masukkan pesan kamu"></textarea>
+                    </div>
+
+                    <button type="submit">
+                        Kirim Pesan
+                    </button>
+                </form>
+            </section>
+
+            <!-- JADWAL -->
+            <section class="panel">
+                <h2>Jadwal Pelajaran</h2>
+
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Hari</th>
+                                <th>Mata Pelajaran</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td rowspan="5">Senin</td>
+                                <td>Akidah Akhlak</td>
+                            </tr>
+                            <tr>
+                                <td>Sosiologi</td>
+                            </tr>
+                            <tr>
+                                <td>Biologi</td>
+                            </tr>
+                            <tr>
+                                <td>Sejarah Kebudayaan Islam</td>
+                            </tr>
+                            <tr>
+                                <td>Informatika</td>
+                            </tr>
+
+                            <tr>
+                                <td rowspan="6">Selasa</td>
+                                <td>Penjas</td>
+                            </tr>
+                            <tr>
+                                <td>Kimia</td>
+                            </tr>
+                            <tr>
+                                <td>MTK</td>
+                            </tr>
+                            <tr>
+                                <td>Sejarah</td>
+                            </tr>
+                            <tr>
+                                <td>Pendidikan Pancasila</td>
+                            </tr>
+                            <tr>
+                                <td>Bahasa Indonesia</td>
+                            </tr>
+
+                            <tr>
+                                <td rowspan="4">rabu</td>
+                                <td>QH</td>
+                            </tr>
+                            <tr>
+                                <td>MTK TKA</td>
+                            </tr>
+                            <tr>
+                                <td>Bahasa Arab</td>
+                            </tr>
+                            <tr>
+                                <td>RPL</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="5">kamis</td>
+                                <td>fiqih</td>
+                            </tr>
+                            <tr>
+                                <td>fisika</td>
+                            </tr>
+                            <tr>
+                                <td>matematika</td>
+                            </tr>
+                            <tr>
+                                <td>ekonomi</td>
+                            </tr>
+                            <tr>
+                                <td>bahasa arab</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="5">Jum'at</td>
+                                <td>Geografi</td>
+                            </tr>
+                            <tr>
+                                <td>koding & AI</td>
+                            </tr>
+                            <tr>
+                                <td>bahasa indonesia</td>
+                            </tr>
+                            <tr>
+                                <td>seni budaya</td>
+                            </tr>
+                            <tr>
+                                <td>bahasa inggris</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
 
         </main>
 
+        <footer class="footer">
+            <p>
+                © 2026 Muhammad Jauhar Hilmi.
+                Dibuat dengan HTML dan CSS.
+            </p>
+        </footer>
 
-        <section>
-            <h2> Hobi :
-                <ul>
-                    <li>Bermain Game</li>
-                    <li>Membaca Buku</li>
-                </ul>
-                <section>
-                    <h2>SOSIAL MEDIA</h2>
-                    <UL>
-                        <li><a href="https://www.instagram.com/jhr_0403/" target="_blank">Instagram</a></li>
-                    </UL>
-
-                </section>
-        </section>
-        <!-- form kontak -->
-        <section>
-            <form>
-                <div>
-
-                    <label>nama: </label>
-                    <input type="text" placeholder="masuk">
-                    <label>pesan:</label>
-                    <input type="text" placeholder="masukkan pesan anda" />
-                    <button type="submit">Kirim pesan</button>
-                </div>
-            </form>
-        </section>
-        <div>
-            <!-- jadwal pelajaran-->
-            <table border>
-                <thead>
-                    <tr>
-                        <th>hari</th>
-                        <th>mata pelajaran</th>
-
-                    </tr>
-
-                </thead>
-                <tbody>
-                    <tr>
-                        <td rowspan="5">senin</td>
-                        <td>Akidah akhlaq</td>
-                    </tr>
-                    <tr>
-                        <td>sosiologi</td>
-                    </tr>
-                    <tr>
-                        <td>biologi</td>
-                    </tr>
-                    <tr>
-                        <td>Sejarah Kebudayaan Islam</td>
-                    </tr>
-                    <tr>
-                        <td>informatika</td>
-                    </tr>
-                    <tr>
-                        <td rowspan="6">selasa</td>
-                        <td>penjas</td>
-                    </tr>
-                    <tr>
-                        <td>kimia</td>
-                    </tr>
-                    <tr>
-                        <td>MTK</td>
-                    </tr>
-                    <tr>
-                        <td>Sejarah</td>
-                    </tr>
-                    <tr>
-                        <td>Pendidikan pancasila</td>
-                    </tr>
-                    <tr>
-                        <td>bahasa indonesia</td>
-                    </tr>
-
-
-                    <tr>
-                        <td rowspan="5">rabu</td>
-                        <td>QH</td>
-                    </tr>
-                    <tr>
-                        <td>MTK TKA</td>
-                    </tr>
-                    <tr>
-                        <td>b. arab</td>
-                    </tr>
-                    <tr>
-                        <td>RPL</td>
-                    </tr>
-
-
-
-
-
-                </tbody>
-
-
-            </table>
-        </div>
     </div>
-</body>
 
+</body>
 
 </html>
